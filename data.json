@@ -1,0 +1,236 @@
+{
+    "data": {
+          "inventions": [
+              {
+                  "id": "inv_001",
+                  "name": "Gutenberg Printing Press",
+                  "inventor": "Johannes Gutenberg",
+                  "date": "c. 1440",
+                  "field": "Mechanical",
+                  "description": "A mechanical device for applying pressure to an inked surface resting upon a print medium (such as paper or cloth), thereby transferring the ink.",
+                  "materials": ["Metal", "Wood", "Ink"],
+                  "applications": ["Book production", "Mass communication"],
+                  "patents": null,
+                  "images": [
+                      "https://i.ibb.co/6W66v8P/gutenberg-printing-press-1.jpg",
+                      "https://i.ibb.co/V23K7xR/gutenberg-printing-press-2.jpg"
+                  ],
+                  "related_projects": [],
+                  "references": [
+                      { "url": "https://en.wikipedia.org/wiki/Printing_press", "type": "wikipedia" },
+                      { "url": "https://www.britannica.com/technology/printing-press", "type": "britannica" }
+                  ]
+              },
+              {
+                  "id": "inv_002",
+                  "name": "Incandescent Light Bulb",
+                  "inventor": "Thomas Edison",
+                  "date": "1879",
+                  "field": "Electrical",
+                  "description": "An electrical device that uses an electric current to produce light by heating a filament.",
+                  "materials": ["Glass", "Metal", "Filament"],
+                  "applications": ["Lighting", "Illumination"],
+                  "patents": ["US Patent 223898"],
+                   "images": [
+                     "https://i.ibb.co/f15J1yR/edison-light-bulb-1.jpg",
+                       "https://i.ibb.co/K7Q7yX7/edison-light-bulb-2.jpg"
+                   ],
+                  "related_projects": [],
+                   "references": [
+                      { "url": "https://en.wikipedia.org/wiki/Incandescent_light_bulb", "type": "wikipedia" },
+                      { "url": "https://www.si.edu/object/nmah_1067917", "type": "smithsonian" }
+                   ]
+              },
+              {
+                  "id": "inv_003",
+                  "name": "Integrated Circuit (Microchip)",
+                   "inventor": ["Jack Kilby", "Robert Noyce"],
+                  "date": "1958",
+                  "field": "Electronics",
+                  "description": "A set of electronic circuits on one small flat piece of semiconductor material.",
+                   "materials": ["Silicon", "Metal", "Dopants"],
+                  "applications": ["Computers", "Electronics", "Spacecraft"],
+                  "patents": ["US Patent 3138783", "US Patent 2981877"],
+                   "images": [
+                     "https://i.ibb.co/k0Kj7p8/integrated-circuit-1.jpg",
+                      "https://i.ibb.co/c2Q7Y9H/integrated-circuit-2.jpg"
+                   ],
+                  "related_projects": ["space_001", "space_002"],
+                   "references": [
+                       { "url": "https://en.wikipedia.org/wiki/Integrated_circuit", "type": "wikipedia" },
+                       { "url": "https://www.computerhistory.org/siliconengine/the-integrated-circuit-a-microchip-revolution/", "type": "computerhistory" }
+                   ]
+              },
+        {
+          "id": "inv_004",
+          "name": "Telephone",
+          "inventor": "Alexander Graham Bell",
+          "date": "1876",
+          "field": "Electrical",
+          "description": "A telecommunications device that transmits and receives sound over long distances.",
+          "materials": ["Metal", "Electromagnet", "Wire"],
+            "applications": ["Communication", "Telephony"],
+          "patents": ["US Patent 174465"],
+          "images": ["https://i.ibb.co/Wz0mYgY/telephone-1.jpg", "https://i.ibb.co/7gG4m9X/telephone-2.jpg"],
+          "related_projects": [],
+            "references": [
+              { "url": "https://en.wikipedia.org/wiki/Telephone", "type": "wikipedia" },
+                {"url": "https://www.britannica.com/technology/telephone", "type": "britannica"}
+            ]
+        },
+         {
+            "id": "inv_005",
+            "name": "Steam Engine",
+            "inventor": ["Thomas Savery", "Thomas Newcomen", "James Watt"],
+            "date": "1712 (Newcomen), 1769 (Watt)",
+            "field": "Mechanical",
+            "description": "A heat engine that performs mechanical work using steam as its working fluid.",
+             "materials": ["Iron", "Steel", "Coal"],
+            "applications": ["Mining", "Transportation", "Factories"],
+            "patents": null,
+            "images": ["https://i.ibb.co/q7H4QjX/steam-engine-1.jpg", "https://i.ibb.co/7g421Z9/steam-engine-2.jpg"],
+            "related_projects": [],
+               "references": [
+                { "url": "https://en.wikipedia.org/wiki/Steam_engine", "type": "wikipedia" },
+               {"url": "https://www.britannica.com/technology/steam-engine", "type":"britannica"}
+              ]
+          },
+           {
+            "id": "inv_006",
+            "name": "Internal Combustion Engine",
+            "inventor": ["Karl Benz", "Rudolf Diesel"],
+            "date": "1886 (Benz), 1893 (Diesel)",
+            "field": "Mechanical",
+            "description": "A heat engine where the combustion of a fuel occurs with an oxidizer (usually air) in a combustion chamber.",
+            "materials": ["Metal", "Fuel", "Lubricant"],
+            "applications": ["Transportation", "Power generation"],
+            "patents": null,
+            "images": ["https://i.ibb.co/Fw64yY9/combustion-engine-1.jpg", "https://i.ibb.co/N25P08C/combustion-engine-2.jpg"],
+            "related_projects": [],
+              "references": [
+               { "url": "https://en.wikipedia.org/wiki/Internal_combustion_engine", "type":"wikipedia" },
+               {"url": "https://www.britannica.com/technology/internal-combustion-engine", "type":"britannica"}
+              ]
+          }
+      ],
+        "space_projects": [
+          {
+            "id": "space_001",
+            "name": "Apollo 11",
+            "agency": "NASA",
+            "date": "1969-07-16",
+            "description": "The mission that first landed humans on the Moon.",
+            "objectives": ["Lunar landing", "Scientific research"],
+            "crew": ["Neil Armstrong", "Buzz Aldrin", "Michael Collins"],
+            "launch_vehicle": "Saturn V",
+            "payload": ["Lunar Module", "Command Module"],
+              "outcomes": ["First manned lunar landing", "Lunar sample collection"],
+                  "images": [
+                    "https://i.ibb.co/6XwWd1c/apollo-11-launch.jpg",
+                       "https://i.ibb.co/cYZs4k0/apollo-11-moon.jpg"
+                    ],
+            "related_inventions": ["inv_003"],
+             "references": [
+                 { "url": "https://www.nasa.gov/mission_pages/apollo/missions/apollo11.html", "type": "nasa" },
+                 { "url": "https://en.wikipedia.org/wiki/Apollo_11", "type": "wikipedia" }
+                ]
+          },
+          {
+            "id": "space_002",
+            "name": "Hubble Space Telescope",
+            "agency": "NASA / ESA",
+            "date": "1990-04-24",
+            "description": "A space telescope that orbits the Earth to provide images and data of objects in space.",
+            "objectives": ["Observe distant objects", "Study the universe"],
+            "crew": [],
+            "launch_vehicle": "Space Shuttle Discovery",
+            "payload": ["Hubble Space Telescope"],
+            "outcomes": ["Numerous discoveries about space", "Images of galaxies, nebulas, black holes"],
+               "images": [
+                       "https://i.ibb.co/3Yp0t2V/hubble-telescope.jpg",
+                      "https://i.ibb.co/tqjKk9v/hubble-image.jpg"
+                   ],
+            "related_inventions": ["inv_003"],
+             "references": [
+                 { "url": "https://www.nasa.gov/mission_pages/hubble/main/index.html", "type": "nasa" },
+                 { "url": "https://www.esa.int/Science_Exploration/Space_Science/Hubble", "type": "esa" }
+                ]
+          },
+         {
+            "id": "space_003",
+            "name": "International Space Station (ISS)",
+            "agency": ["NASA", "Roscosmos", "ESA", "JAXA", "CSA"],
+            "date": "1998-Present",
+            "description": "A habitable artificial satellite in low Earth orbit, serving as a research laboratory.",
+            "objectives": ["Scientific research", "Technology development"],
+            "crew": ["Rotating crews of international astronauts"],
+            "launch_vehicle": ["Various Rockets"],
+            "payload": ["Research modules", "Equipment", "Supplies"],
+             "outcomes": ["Long-duration space research", "International collaboration"],
+            "images": [
+                   "https://i.ibb.co/3fG4B61/iss-1.jpg",
+                      "https://i.ibb.co/0K8q5xH/iss-2.jpg"
+                   ],
+            "related_inventions": [],
+           "references": [
+              { "url": "https://www.nasa.gov/mission_pages/station/main/index.html", "type": "nasa" },
+               { "url": "https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/International_Space_Station", "type": "esa" }
+              ]
+          },
+          {
+              "id": "space_004",
+              "name": "Voyager 1",
+              "agency": "NASA",
+              "date": "1977-09-05",
+              "description": "A space probe to study the outer Solar System and interstellar space.",
+                "objectives": ["Explore outer planets", "Interstellar research"],
+               "crew": [],
+              "launch_vehicle": "Titan IIIE/Centaur",
+                "payload": ["Scientific instruments"],
+                "outcomes": ["First probe into interstellar space","Images of Jupiter, Saturn, Uranus and Neptune"],
+                "images": ["https://i.ibb.co/k4b3h6X/voyager1-1.jpg", "https://i.ibb.co/j56yK99/voyager1-2.jpg"],
+              "related_inventions": [],
+              "references": [
+                  { "url": "https://www.nasa.gov/mission_pages/voyager/index.html", "type": "nasa" },
+                 { "url": "https://en.wikipedia.org/wiki/Voyager_1", "type": "wikipedia" }
+              ]
+          },
+          {
+          "id": "space_005",
+          "name": "Space Shuttle Program",
+           "agency": "NASA",
+           "date": "1981-2011",
+          "description": "A reusable spacecraft system for human transport, and orbital missions.",
+          "objectives": ["Human spaceflight", "Payload delivery", "Space research"],
+              "crew": ["Various astronaut crews"],
+          "launch_vehicle": "Space Shuttle",
+           "payload": ["Scientific payloads", "Satellite launches", "Space station components"],
+             "outcomes": ["Multiple space missions","Hubble servicing", "ISS assembly"],
+          "images": ["https://i.ibb.co/0t61r9Y/space-shuttle-1.jpg", "https://i.ibb.co/q06530R/space-shuttle-2.jpg"],
+          "related_inventions": [],
+              "references": [
+                 { "url": "https://www.nasa.gov/mission_pages/shuttle/main/index.html", "type": "nasa" },
+                  { "url": "https://en.wikipedia.org/wiki/Space_Shuttle_program", "type": "wikipedia"}
+              ]
+           },
+          {
+            "id": "space_006",
+            "name": "Mars Exploration Rovers",
+            "agency": "NASA",
+            "date": "2003-Present",
+            "description": "Robotic rovers sent to Mars to explore its surface, and conduct geological research.",
+              "objectives": ["Mars exploration", "Geological research"],
+              "crew": [],
+            "launch_vehicle": "Delta II",
+            "payload": ["Spirit Rover", "Opportunity Rover"],
+               "outcomes": ["Detailed Mars surface exploration","Discovery of past water evidence"],
+                "images": ["https://i.ibb.co/6tq1020/mars-rovers-1.jpg", "https://i.ibb.co/94x1x3h/mars-rovers-2.jpg"],
+            "related_inventions": [],
+             "references": [
+                 { "url": "https://mars.nasa.gov/mer/", "type": "nasa" },
+                 { "url":"https://en.wikipedia.org/wiki/Mars_Exploration_Rover", "type":"wikipedia"}
+              ]
+          }
+        ]
+      }
+    }
