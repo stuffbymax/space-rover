@@ -12,8 +12,8 @@
                 "applications": ["Book production", "Mass communication"],
                 "patents": null,
                 "images": [
-                    "https://i.ibb.co/6W66v8P/gutenberg-printing-press-1.jpg",
-                    "https://i.ibb.co/V23K7xR/gutenberg-printing-press-2.jpg"
+                    "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Gutenberg.jpg/220px-Gutenberg.jpg",
+                    "./images/printer.jpg"
                 ],
                 "related_projects": [],
                 "references": [
@@ -32,8 +32,8 @@
                 "applications": ["Lighting", "Illumination"],
                 "patents": ["US Patent 223898"],
                 "images": [
-                    "https://i.ibb.co/f15J1yR/edison-light-bulb-1.jpg",
-                    "https://i.ibb.co/K7Q7yX7/edison-light-bulb-2.jpg"
+                    "",
+                    ""
                 ],
                 "related_projects": [],
                 "references": [
