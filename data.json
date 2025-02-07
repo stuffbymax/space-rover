@@ -12,7 +12,7 @@
                 "applications": ["Book production", "Mass communication"],
                 "patents": null,
                 "images": [
-                    "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Gutenberg.jpg/220px-Gutenberg.jpg",
+                    "./images/Gutenberg.jpg",
                     "./images/printer.jpg"
                 ],
                 "related_projects": [],
@@ -24,7 +24,7 @@
             {
                 "id": "inv_002",
                 "name": "Incandescent Light Bulb",
-                "inventor": "Thomas Edison",
+                "inventor": "Humphry Davy, Warren de la Rue,Joseph Swan,Thomas Edison,Lewis Latimer, ",
                 "date": "1879",
                 "field": "Electrical",
                 "description": "An electrical device that uses an electric current to produce light by heating a filament.",
@@ -32,7 +32,7 @@
                 "applications": ["Lighting", "Illumination"],
                 "patents": ["US Patent 223898"],
                 "images": [
-                    "",
+                    "./images/incandescent-Light-Bulb.jpg",
                     ""
                 ],
                 "related_projects": [],
@@ -52,8 +52,8 @@
                 "applications": ["Computers", "Electronics", "Spacecraft"],
                 "patents": ["US Patent 3138783", "US Patent 2981877"],
                 "images": [
-                    "https://i.ibb.co/k0Kj7p8/integrated-circuit-1.jpg",
-                    "https://i.ibb.co/c2Q7Y9H/integrated-circuit-2.jpg"
+                    "./images/Robert_Noyce_with_Motherboard_1959.jpg",
+                    "./images/AD570JD.jpg"
                 ],
                 "related_projects": ["space_001", "space_002"],
                 "references": [
@@ -71,7 +71,8 @@
                 "materials": ["Metal", "Electromagnet", "Wire"],
                 "applications": ["Communication", "Telephony"],
                 "patents": ["US Patent 174465"],
-                "images": ["https://i.ibb.co/Wz0mYgY/telephone-1.jpg", "https://i.ibb.co/7gG4m9X/telephone-2.jpg"],
+                "images": ["./images/Alexander_Graham_Telephone_in_Newyork.jpg",
+                 "./images/telephone.jpg"],
                 "related_projects": [],
                 "references": [
                     { "url": "https://en.wikipedia.org/wiki/Telephone", "type": "wikipedia" },
