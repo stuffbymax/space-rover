@@ -5,6 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Inventions and Space Projects</title>
     <link rel="stylesheet" href="style.css">
+    <style>
+        .card img {
+            display: block; /*  Ensure it's a block-level element */
+            margin: 0 auto; /*  Left and right margins set to auto */
+        }
+    </style>
 </head>
 <body>
     <header>
@@ -18,8 +24,16 @@
     <main>
       <div id="content-container"></div>
     </main>
+<script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
 
-    <script>const inventionsBtn = document.getElementById('inventionsBtn');
+    <script>
+	const grid = document.getElementById('content-container');
+	const masonry = new Masonry(grid, {
+    itemSelector: '.card',
+    gutter: 20, // Adjust the gutter size
+    fitWidth: true
+});
+	  const inventionsBtn = document.getElementById('inventionsBtn');
       const spaceProjectsBtn = document.getElementById('spaceProjectsBtn');
       const contentContainer = document.getElementById('content-container');
       const searchInput = document.getElementById('searchInput');
@@ -212,5 +226,3 @@
       </script>
 </body>
 </html>
-
-   

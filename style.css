@@ -1,5 +1,5 @@
 body {
-    font-family: sans-serif;
+    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
@@ -10,7 +10,6 @@ header {
     background-color: #333;
     color: #fff;
     padding: 1rem;
-    text-align: center;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -20,13 +19,10 @@ header h1 {
     margin-right: 1rem;
 }
 
-h2 {text-align: center;
+h2 {
+    text-align: center;
 }
 
-p {text-align: center;
-}
-link {text-alight: center;
-}
 nav button {
     padding: 0.5rem 1rem;
     border: none;
@@ -41,7 +37,8 @@ nav button:hover {
 }
 
 nav button.active {
-    background-color: #777;
+    background-color: #007bff;
+    color: white;
 }
 
 main {
@@ -49,16 +46,17 @@ main {
 }
 
 #content-container {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 20px;
+    display: grid; /* Enable CSS Grid */
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Responsive columns */
+    grid-gap: 2rem; /* Spacing between grid items */
+    position: relative; /*  Good practice */
 }
 
 .card {
     background-color: white;
     border-radius: 8px;
     padding: 1rem;
-    margin-bottom: 1rem;
+    margin-bottom: 0; /* Remove bottom margin */
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
@@ -71,19 +69,55 @@ main {
     margin-bottom: 0.5rem;
 }
 
-.card img {
-    max-width: 100%;
+/* Style to make it even bigger*/
+.card.images-zoom-in:not(:has(.image-grid)) img{
+    width: 400px; /* Each image takes up full width of its cell */
+    max-height: 400px;
+    border: solid;
+}
+
+/*Override the card style when it does not have .image-grid, this forces the single image to be big*/
+.card:not(:has(.image-grid)) img{
+    display: block;
+    margin: 0 auto;
+    width: 100%; /* Each image takes up full width of its cell */
     height: auto;
-    margin-bottom: 1rem;
+    object-fit: cover; /* Fill the cell, may crop */
+    border-radius: 5px; /* Optional: Rounded corners for images */
+}
+
+/* Override previous image style for single images*/
+.card img {
+    display: block;
+    margin: 0 auto;
+
+    width: 200px; /* Set a fixed width for all images */
+    height: auto;   /* Maintain aspect ratio */
+
+    object-fit: contain; /* This ensures the entire image is visible */
+}
+
+/* New styles for the image grid */
+.card .image-grid {
+    display: grid; /* Enable CSS Grid for images */
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); /* Responsive image columns */
+    grid-gap: 1rem; /* Spacing between images */
+}
+
+.card .image-grid img {
+    width: 100%; /* Each image takes up full width of its cell */
+    height: auto;
+    object-fit: cover; /* Fill the cell, may crop */
+    border-radius: 5px; /* Optional: Rounded corners for images */
 }
 
 .card .references-container {
-  margin-top: 1rem;
+    margin-top: 1rem;
 }
 
 .card .references-container strong {
-  display: block; /* Make "References:" a block-level element */
-  margin-bottom: 0.5rem;
+    display: block;
+    margin-bottom: 0.5rem;
 }
 
 .card .references-container ul {
@@ -92,8 +126,8 @@ main {
     margin: 0;
 }
 
-.card .references-container ul li{
-  margin-bottom: 0.3rem;
+.card .references-container ul li {
+    margin-bottom: 0.3rem;
 }
 
 .card .references-container ul li a {
@@ -104,7 +138,6 @@ main {
 .card .references-container ul li a:hover {
     text-decoration: underline;
 }
-
 
 /* Search Input Styling */
 #searchInput {
