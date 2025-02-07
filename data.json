@@ -89,7 +89,8 @@
                 "materials": ["Iron", "Steel", "Coal"],
                 "applications": ["Mining", "Transportation", "Factories"],
                 "patents": null,
-                "images": ["https://i.ibb.co/q7H4QjX/steam-engine-1.jpg", "https://i.ibb.co/7g421Z9/steam-engine-2.jpg"],
+                "images": ["./images/steam-engine.jpg"
+                ,"./images/Hoentrop.jpg"],
                 "related_projects": [],
                 "references": [
                     { "url": "https://en.wikipedia.org/wiki/Steam_engine", "type": "wikipedia" },
@@ -106,7 +107,8 @@
                 "materials": ["Metal", "Fuel", "Lubricant"],
                 "applications": ["Transportation", "Power generation"],
                 "patents": null,
-                "images": ["https://i.ibb.co/Fw64yY9/combustion-engine-1.jpg", "https://i.ibb.co/N25P08C/combustion-engine-2.jpg"],
+                "images": ["./images/Four_stroke_engine_diagram.jpg",
+                 "./images/4StrokeEngine_Ortho_3D_Small.gif"],
                 "related_projects": [],
                 "references": [
                     { "url": "https://en.wikipedia.org/wiki/Internal_combustion_engine", "type": "wikipedia" },
@@ -124,8 +126,9 @@
                  "applications": ["Entertainment", "Communication", "Education"],
                 "patents": ["US Patent 1773980", "US Patent 2130061"],
                  "images": [
-                        "https://i.ibb.co/hXzXnB2/television-1.jpg",
-                        "https://i.ibb.co/7g0Hn8Y/television-2.jpg"
+                        "./images/Philo-Farnsworth-television-receiver.jpg",
+                        "./images/RCA_630-TS_Television.jpg",
+                        "./images/Bundesarchiv_Bild_183-K0917-501,_Prof_Manfred_v_Ardenne.jpg"
                  ],
                "related_projects": [],
                 "references":[
@@ -144,8 +147,9 @@
                 "applications": ["Communication", "Broadcasting","Navigation"],
                  "patents":["British Patent 12039"],
                 "images":[
-                     "https://i.ibb.co/j8X9hK0/radio-1.jpg",
-                    "https://i.ibb.co/10x750K/radio-2.jpg"
+                     "./images/Klaudia_801.JPG",
+                     "./images/Transmisor_de_bulbos_AM_Elcom_Bauer_701_B_XEQK.jpg",
+                    "./images/Amfm3-en-de.gif"
                  ],
                  "related_projects": [],
                "references":[
@@ -164,8 +168,9 @@
              "applications": ["Amplifiers", "Switches", "Digital Circuits"],
              "patents": ["US Patent 2524035"],
               "images": [
-               "https://i.ibb.co/r5X8qY8/transistor-1.jpg",
-               "https://i.ibb.co/GvY1Fj3/transistor-2.jpg"
+               "./images/Transistorer_(cropped)",
+               "./images/Bardeen_Shockley_Brattain_1948.JPG",
+               "./images/httpsMOSFET_Structure.jpg"
              ],
              "related_projects": ["inv_003"],
               "references":[
@@ -184,8 +189,19 @@
               "applications": ["Data Processing", "Automation", "Research"],
               "patents": null,
               "images": [
-                 "https://i.ibb.co/19p5Q6L/computer-1.jpg",
-                 "https://i.ibb.co/Qv9b5t1/computer-2.jpg"
+                 "./images/ENIAC-changing_a_tube_(cropped).jpg",
+                 "./imagesIBM_System360_Mainframe.jpg",
+                 "./images/LYF_WATER_2_Smartphone.jpg",
+                 ".images/ThinkCentre_S50.jpg",
+                 "./images/Gamecube-console.jpg",
+                 "./images/Summit_(supercomputer).jpg",
+                 "./images/X-4_with_Female_Computer_-_GPN-2000-001932.jpg",
+                 "./images/Os_d'Ishango_IRSNB.JPG",
+                 "./images/Differenceengine.jpg",
+                 "./images/Z3_Deutsches_Museum.JPG",
+                 "./images/Aritmómetro_Electromecánico.jpg",
+                 "./images/Abacus_6.jpg"
+                 
               ],
                "related_projects": ["space_001","space_002"],
               "references":[
@@ -204,8 +220,10 @@
                  "applications": ["Information Retrieval", "Communication", "E-commerce"],
                 "patents": null,
                 "images": [
-                  "https://i.ibb.co/27f1H3s/world-wide-web-1.jpg",
-                     "https://i.ibb.co/wR2s6t8/world-wide-web-2.jpg"
+                  "./images/Chrome_on_Linux.jpg",
+                  "./images/First_Web_Server.jpg",
+                  "./images/Internet_Key_Layers.jpg",
+                  "./images/WWW-LetShare.jpg"
                      ],
                 "related_projects": [],
                  "references":[
@@ -225,7 +243,11 @@
                  "patents": null,
                 "images": [
                    "https://i.ibb.co/Yk46h1X/penicillin-1.jpg",
-                    "https://i.ibb.co/T14C5pS/penicillin-2.jpg"
+                   ".images/Howard_Walter_Florey_1945.jpg",
+                   ".images/PenicillinPSAedit.jpg",
+                   ".images/Sample_of_penicillin_mould_presented_by_Alexander_Fleming_to_Douglas_Macleod,_1935_(9672239344).jpg",
+                   "./images/penicilin.jpg",
+                   "./images/Penicillin_core.jpg"
                   ],
                 "related_projects":[],
                 "references": [
@@ -244,8 +266,10 @@
                 "applications": ["Navigation", "Surveying", "Location Tracking"],
                 "patents": null,
                 "images": [
-                   "https://i.ibb.co/Xk3T6z8/gps-1.jpg",
-                    "https://i.ibb.co/wM4m4fH/gps-2.jpg"
+                   "./images/800px-Magellan_GPS_Blazer12.jpg",
+                   "./images/GPS_Block_IIIA.jpg",
+                   "./images/800px-GPS_Receivers.jpg",
+                    "./images/GPS24goldenSMALL.gif"
                    ],
                 "related_projects":[],
                 "references": [
@@ -264,8 +288,10 @@
             "applications": ["Communication", "Information Sharing", "E-Commerce"],
              "patents": null,
              "images": [
-                "https://i.ibb.co/8X1s2gG/internet-1.jpg",
-                 "https://i.ibb.co/5vW7yZ2/internet-2.jpg"
+                "./images/Internet_map_1024_-_transparent,_inverted.jpg",
+                 "./images/Data_Networks_classification_by_spatial_scope.jpg",
+                 "./images/Example_of_an_iterative_DNS_resolver.jpg",
+                 "./images/Internet_Connectivity_Distribution_&_Core.jpg"
                  ],
              "related_projects":["inv_011"],
             "references": [
@@ -284,8 +310,10 @@
             "applications": ["Medical Procedures", "Data Storage", "Industrial Manufacturing"],
             "patents":["US Patent 3353115"],
              "images": [
-                 "https://i.ibb.co/Vv86f9j/laser-1.jpg",
-                  "https://i.ibb.co/Fh7k0k6/laser-2.jpg"
+                 "./images/Guiding_the_Milky_Way_(potw2222a).jpg",
+                  "./images/Laser.jpg",
+                  "./images/Stimulated_Emission.jpg",
+                  "./images/800px-Lasers.JPG"
                ],
             "related_projects": [],
              "references":[
