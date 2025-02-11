@@ -1,5 +1,5 @@
 {
-    "data": {
+    "data": {   
         "inventions": [
             {
                 "id": "inv_001",
@@ -335,8 +335,8 @@
                 "payload": ["Lunar Module", "Command Module"],
                 "outcomes": ["First manned lunar landing", "Lunar sample collection"],
                 "images": [
-                    "https://i.ibb.co/6XwWd1c/apollo-11-launch.jpg",
-                    "https://i.ibb.co/cYZs4k0/apollo-11-moon.jpg"
+                    "./images/space/apolo11.jpg",
+                    "./images/space/apolo11.jpg"
                 ],
                  "related_inventions": ["inv_003", "inv_010"],
                "references": [
@@ -356,13 +356,14 @@
                 "payload": ["Hubble Space Telescope"],
                 "outcomes": ["Numerous discoveries about space", "Images of galaxies, nebulas, black holes"],
                 "images": [
-                    "https://i.ibb.co/3Yp0t2V/hubble-telescope.jpg",
-                    "https://i.ibb.co/tqjKk9v/hubble-image.jpg"
+                    "./images/space/STScI-01JH3VXC22PPYN0C0JFFKVF6B9.jpg"
                 ],
                 "related_inventions": ["inv_003", "inv_010"],
                 "references": [
                     { "url": "https://www.nasa.gov/mission_pages/hubble/main/index.html", "type": "nasa" },
-                    { "url": "https://www.esa.int/Science_Exploration/Space_Science/Hubble", "type": "esa" }
+                    { "url": "https://www.esa.int/Science_Exploration/Space_Science/Hubble", "type": "esa" },
+                    { "url": "https://hubblesite.org/", "type": "esa" }
+                    
                 ]
             },
             {
