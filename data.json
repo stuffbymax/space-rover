@@ -168,9 +168,9 @@
              "applications": ["Amplifiers", "Switches", "Digital Circuits"],
              "patents": ["US Patent 2524035"],
               "images": [
-               "./images/Transistorer_(cropped)",
+               "./images/Transistorer.jpg",
                "./images/Bardeen_Shockley_Brattain_1948.JPG",
-               "./images/httpsMOSFET_Structure.jpg"
+               "./images/MOSFET_Structure.jpg"
              ],
              "related_projects": ["inv_003"],
               "references":[
@@ -189,18 +189,9 @@
               "applications": ["Data Processing", "Automation", "Research"],
               "patents": null,
               "images": [
-                 "./images/ENIAC-changing_a_tube_(cropped).jpg",
-                 "./imagesIBM_System360_Mainframe.jpg",
+                 "./images/IBM_System360_Mainframe.jpg",
                  "./images/LYF_WATER_2_Smartphone.jpg",
-                 ".images/ThinkCentre_S50.jpg",
-                 "./images/Gamecube-console.jpg",
-                 "./images/Summit_(supercomputer).jpg",
-                 "./images/X-4_with_Female_Computer_-_GPN-2000-001932.jpg",
-                 "./images/Os_d'Ishango_IRSNB.JPG",
-                 "./images/Differenceengine.jpg",
-                 "./images/Z3_Deutsches_Museum.JPG",
-                 "./images/Aritmómetro_Electromecánico.jpg",
-                 "./images/Abacus_6.jpg"
+                 "./images/ThinkCentre_S50.jpg"
                  
               ],
                "related_projects": ["space_001","space_002"],
@@ -242,12 +233,10 @@
                 "applications": ["Antibiotic Medicine","Infection Treatment"],
                  "patents": null,
                 "images": [
-                   "https://i.ibb.co/Yk46h1X/penicillin-1.jpg",
-                   ".images/Howard_Walter_Florey_1945.jpg",
-                   ".images/PenicillinPSAedit.jpg",
-                   ".images/Sample_of_penicillin_mould_presented_by_Alexander_Fleming_to_Douglas_Macleod,_1935_(9672239344).jpg",
-                   "./images/penicilin.jpg",
-                   "./images/Penicillin_core.jpg"
+                   "./images/Howard_Walter_Florey_1945.jpg",
+                   "./images/PenicillinPSAedit.jpg",
+                   "./images/penicilin.jpg"
+                   
                   ],
                 "related_projects":[],
                 "references": [
@@ -378,8 +367,8 @@
                 "payload": ["Research modules", "Equipment", "Supplies"],
                 "outcomes": ["Long-duration space research", "International collaboration"],
                 "images": [
-                    "https://i.ibb.co/3fG4B61/iss-1.jpg",
-                    "https://i.ibb.co/0K8q5xH/iss-2.jpg"
+                    "./images/space/The_station_pictured_from_the_SpaceX_Crew_Dragon_1.jpg",
+                    "./images/space/ISS_emblem.png"
                 ],
                 "related_inventions": ["inv_003"],
                 "references": [
@@ -398,7 +387,13 @@
                 "launch_vehicle": "Titan IIIE/Centaur",
                 "payload": ["Scientific instruments"],
                 "outcomes": ["First probe into interstellar space", "Images of Jupiter, Saturn, Uranus and Neptune"],
-                "images": ["https://i.ibb.co/k4b3h6X/voyager1-1.jpg", "https://i.ibb.co/j56yK99/voyager1-2.jpg"],
+                "images": 
+                ["./images/space/Voyager_spacecraft.jpg",
+                "./images/space/Voyager.jpg"
+            
+            
+            
+            ],
                 "related_inventions": [],
                "references": [
                     { "url": "https://www.nasa.gov/mission_pages/voyager/index.html", "type": "nasa" },
@@ -416,7 +411,9 @@
                 "launch_vehicle": "Space Shuttle",
                 "payload": ["Scientific payloads", "Satellite launches", "Space station components"],
                 "outcomes": ["Multiple space missions", "Hubble servicing", "ISS assembly"],
-                "images": ["https://i.ibb.co/0t61r9Y/space-shuttle-1.jpg", "https://i.ibb.co/q06530R/space-shuttle-2.jpg"],
+                "images": ["./images/space/Shuttle_Patch.svg.png", 
+                           "./images/space/Endeavour_docked_to_ISS.jpg"
+            ],
                 "related_inventions": [],
                  "references": [
                     { "url": "https://www.nasa.gov/mission_pages/shuttle/main/index.html", "type": "nasa" },
@@ -434,7 +431,7 @@
                 "launch_vehicle": "Delta II",
                 "payload": ["Spirit Rover", "Opportunity Rover"],
                 "outcomes": ["Detailed Mars surface exploration", "Discovery of past water evidence"],
-                "images": ["https://i.ibb.co/6tq1020/mars-rovers-1.jpg", "https://i.ibb.co/94x1x3h/mars-rovers-2.jpg"],
+                "images": ["./images/space/Spirit_and_Opportunity_by_the_numbers.jpg", "./images/space/MER_vs._Sojourner_PIA04827.jpg"],
                 "related_inventions": [],
                "references": [
                     { "url": "https://mars.nasa.gov/mer/", "type": "nasa" },
@@ -453,8 +450,8 @@
                 "payload": ["James Webb Space Telescope"],
                  "outcomes": ["Detailed images of early universe", "Discovery of new exoplanets"],
                  "images": [
-                      "https://i.ibb.co/L9s7hK6/webb-telescope-1.jpg",
-                    "https://i.ibb.co/r76g3x5/webb-telescope-2.jpg"
+                      "./images/space/2000x1333-JamesWebb-C.jpg",
+                    "./images/space/James_Webb_Space_Telescope_Revealed_(26832090085).jpg"
                     ],
                  "related_inventions": ["inv_015"],
                  "references": [
@@ -474,8 +471,8 @@
                "payload": ["Cassini Orbiter","Huygens Probe"],
               "outcomes": ["Discovery of Titan's atmosphere","Data on Saturn's moons"],
               "images":[
-                  "https://i.ibb.co/Jq5r3x6/cassini-1.jpg",
-                   "https://i.ibb.co/682R3hC/cassini-2.jpg"
+                  "./images/space/Cassini_Saturn_Orbit_Insertion.jpg",
+                   "./images/space/Titan4B_on_Launch_Complex_40.jpg"
                 ],
                "related_inventions": [],
                 "references": [
@@ -495,8 +492,8 @@
                "payload": ["New Horizons Probe"],
                "outcomes": ["Images of Pluto and its moons", "Data on Kuiper Belt Objects"],
                "images": [
-                   "https://i.ibb.co/yV58Y6g/new-horizons-1.jpg",
-                   "https://i.ibb.co/YkZ5g8f/new-horizons-2.jpg"
+                   "./images/space/New_Horizons_spacecraft_model_1.png",
+                   "./images/space/1280px-New_Horizons_on_work_stand.jpg"
                  ],
               "related_inventions":[],
                 "references": [
@@ -516,8 +513,8 @@
            "payload":["Parker Solar Probe"],
             "outcomes":["Data on solar wind", "Insights into solar corona"],
              "images": [
-                  "https://i.ibb.co/Tq7W8mX/parker-solar-probe-1.jpg",
-                  "https://i.ibb.co/xJ4qYy9/parker-solar-probe-2.jpg"
+                  "./images/space/1280px-Parker_Solar_Probe.jpg",
+                  "./images/space/Animation_of_Parker_Solar_Probe_trajectory.gif"
                  ],
              "related_inventions":[],
              "references":[
